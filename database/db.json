@@ -1,0 +1,64 @@
+{
+  "produto": [
+    {
+      "nome": "Darth Vader",
+      "valor": "50",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "id": "1"
+    },
+    {
+      "nome": "Flash",
+      "valor": "25",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "id": "2"
+    },
+    {
+      "nome": "Batman",
+      "valor": "35",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "id": "3"
+    },
+    {
+      "id": "8f50",
+      "nome": "Hulk",
+      "valor": "125",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_695885-MLB50771323885_072022-O.webp"
+    },
+    {
+      "id": "19f2",
+      "nome": "Outro",
+      "valor": "1254",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "0615",
+      "nome": "Outro",
+      "valor": "1254",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "61a4",
+      "nome": "Outro",
+      "valor": "1254",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "1467",
+      "nome": "",
+      "valor": "",
+      "imagem": ""
+    },
+    {
+      "id": "df11",
+      "nome": "",
+      "valor": "",
+      "imagem": ""
+    },
+    {
+      "id": "e0eb",
+      "nome": "",
+      "valor": "",
+      "imagem": ""
+    }
+  ]
+}

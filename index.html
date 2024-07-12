@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>AluraGeek</title>
+
+</head>
+<body>
+    
+    <header class="cabecalho__footer">
+        <div class="logo">
+            <figure class="cabecalho__footer__logo">
+                <img src="./imagens/tres-coracoes.png" alt="Três corações">
+            </figure>
+            <h1 class="cabecalho__footer__titulo">AluraGeek</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section class="produtos">
+            <div class="adicionarProdutos">
+            <h1 class="titulosH1">adicionar produto:</h1>
+
+                <form class="form__container" data-form>
+                    <input class="dadosEntrada" data-nome type="text" id="nome" name="nome" placeholder="nome...">
+                    <input class="dadosEntrada" data-valor type="text" id="valor" name="valor" placeholder="valor...">
+                    <input class="dadosEntrada" data-imagem type="text" id="imagem" name="imagem" placeholder="imagem...">
+
+                    <div class="btn">
+                        <button id="button" class="btnGuardar" type="submit">Guardar</button>
+                        <button id="button" class="btnLimpar" type="reset">Limpar</button>
+                    </div>
+                </form>    
+            </div>
+
+            <section class="meusProdutos">
+                <h1 class="titulosH1">meus produtos:</h1>
+
+                <div data-produto class="card__produtos">
+                    
+                    <!-- <div class="card">
+                        <img class="card__img" src="https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp" alt="imagem">
+
+                        <div class="card__nome">Nome</div>
+                        <div class="card__valor">$ Valor
+                            <button onclick="alert('Clicou')" type="reset" class="card__lixo" data-id="${id}">
+                                <img src="./imagens/icons8-lixeira-24.png" alt="Lixeira">
+                            </button>
+                        </div>                        
+                    </div> -->
+
+                </div>    
+            </section>            
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <figure class="cabecalho__footer__logo">
+                <img src="./imagens/tres-coracoes.png" alt="Três corações">
+            </figure>
+            <h1 class="cabecalho__footer__titulo">AluraGeek</h1>
+        </div>
+        
+        <p class="footer__P1">desenvolvido por Charles Welausen</p>
+        <P class="footer__P2">Alura latam- 2024</P>
+    </footer>
+    <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>
